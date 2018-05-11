@@ -12,7 +12,12 @@ app-editors/gvim acl gnome gtk nls (aqua) cscope debug gtk3 lua luajit motif neX
 app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python racket ruby (selinux) tcl terminal vim-pager
 ```
 
-3. 安装软件
+3. Hack emerge install porcess
+
+    在`/etc/portage/env`中根据相应包的目录结构建立bash脚本，详细可见[Portage Document](https://dev.gentoo.org/~zmedico/portage/doc/)
+
+
+4. 安装软件
 
     * Keyword changes
     
@@ -26,6 +31,12 @@ app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python rac
     * USE changes
 
     在`/etc/portage/make.conf`中加入`USE="uvm"`
+    在`/etc/portage/package.use/cuda`
+    ```
+    dev-util/nvidia-cuda-toolkit debugger
+    sys-libs/ncurses tinfo
+    
+    ```
 
     *  license changes
 
@@ -39,3 +50,17 @@ app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python rac
 
     使用`emerge --update --deeep --with-bdeps=y --newuse @world`
 
+4. 有用的软件
+
+    * app-portage/cpuid2cpuflags
+
+    用来查看可用的CPU Flags
+    ```
+    echo "*/* $(cpuid2cpuflags)" > /etc/portage/package.use/00cpu-flags
+    ```
+
+    * gnome-terminal
+    在gnome下用的terminal
+
+    * Topicons plus
+    gnome的插件，用来显示图标
