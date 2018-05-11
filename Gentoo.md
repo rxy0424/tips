@@ -8,7 +8,7 @@
 
 在`/etc/portage/package.use/vim`中写入,后再安装Vim和GVim
 ```
-app-editors/gvim acl gnome gtk nls (aqua) cscope debug gtk3 lua luajit motif neXt netbeans perl python racket ruby (selinux) session tcl
+app-editors/gvim acl gnome gtk nls (aqua) cscope -debug gtk3 lua luajit motif neXt netbeans perl python racket ruby (selinux) session tcl
 app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python racket ruby (selinux) tcl terminal vim-pager
 ```
 
