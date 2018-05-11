@@ -17,7 +17,7 @@ app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python rac
     在`/etc/portage/env`中根据相应包的目录结构建立bash脚本，详细可见[Portage Document](https://dev.gentoo.org/~zmedico/portage/doc/)
 
 
-4. 安装软件
+4. 安装Cuda
 
     * Keyword changes
     
@@ -33,7 +33,7 @@ app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python rac
     在`/etc/portage/make.conf`中加入`USE="uvm"`
     在`/etc/portage/package.use/cuda`
     ```
-    dev-util/nvidia-cuda-toolkit debugger
+    dev-util/nvidia-cuda-toolkit debugger profiler
     sys-libs/ncurses tinfo
     
     ```
@@ -64,3 +64,7 @@ app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python rac
 
     * Topicons plus
     gnome的插件，用来显示图标
+
+    * cudnn
+
+    安装时要将相应的文件放到`/usr/portage/distfiles`中
