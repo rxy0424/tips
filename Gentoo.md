@@ -84,3 +84,10 @@ app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python rac
     * p7zip
 
     to open .7z file
+
+    * powerline
+
+    这个软件应该在github上安装，挺好用的东西
+
+    * eix
+
