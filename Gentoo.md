@@ -91,3 +91,10 @@ app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python rac
 
     * eix
 
+    * ripgrep
+
+    用来搜索，快
+
+    *dev-util/global (gtags)
+
+    用来取代ctags
