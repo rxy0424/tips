@@ -97,4 +97,8 @@ app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python rac
 
     *dev-util/global (gtags)
 
-    用来取代ctags
+    用来取代ctags,去官网上下吧Gentoo里的太老了
+
+    * sys-fs/ntfs3g
+
+    在内核开启[FUSE support](https://wiki.gentoo.org/wiki/NTFS#FUSE_support_.28NTFS-3G.29)之后可以用来读写ntfs分区
