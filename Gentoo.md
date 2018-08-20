@@ -102,3 +102,7 @@ app-editors/vim  X acl gpm nls cscope -debug lua luajit -minimal perl python rac
     * sys-fs/ntfs3g
 
     在内核开启[FUSE support](https://wiki.gentoo.org/wiki/NTFS#FUSE_support_.28NTFS-3G.29)之后可以用来读写ntfs分区
+
+    * app-arch/file-roller
+
+    Open Archive file in GUI
