@@ -56,6 +56,8 @@ This repository includes keyboard and converter firmware projects built with tmk
 **Key v2** generate keycaps [[link]](https://github.com/rsheldiii/KeyV2)
 
 **cherry-mx-keycaps** [[link]](https://github.com/ConstantinoSchillebeeckx/cherry-mx-keycaps)
+
+**Kicad-tool** [[link]](https://github.com/xtoolbox/kicad_tools)
 ### KiCAD library
 KiCAD footprint library for kailh choc and MX-style mechanical switches [[link]](https://github.com/daprice/keyswitches.pretty)
 
@@ -76,6 +78,7 @@ ai03 [[link]](https://github.com/ai03-2725)
 
 **CW40** [[link]](https://github.com/hging/CW40_2.0)
 
+**Cherry-Mx-Bitboard** [[link]](https://github.com/ogatatsu/Cherry-Mx-Bitboard)
 ### GH60
 GH60 Project [[link]](https://geekhack.org/?topic=34959.0)
 
